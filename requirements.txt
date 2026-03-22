@@ -1,0 +1,34 @@
+# Sentence embeddings
+sentence-transformers>=2.2.2
+
+# Dense retrieval with FAISS (CPU, change to faiss-gpu if GPU available)
+faiss-cpu>=1.7.4
+
+# Sparse retrieval
+rank-bm25>=0.2.2
+
+# Neural reranking & transformers
+torch>=2.1.0
+transformers>=4.35.0
+
+# HTTP requests for local LLM API
+requests>=2.31.0
+
+# Data handling
+numpy>=1.26.0
+
+# Optional for older Python versions (pickle compatibility)
+pickle5>=0.0.12
+
+# Testing
+pytest>=7.4.0
+
+# For beginners : install a virtual environment to protect your computer
+python -m venv venv
+source venv/bin/activate  # Linux / Mac
+venv\Scripts\activate     # Windows
+
+# Install everything
+pip install --upgrade pip
+pip install -r requirements.txt
+pip install **each module needed** (sentence-transformers,...)
