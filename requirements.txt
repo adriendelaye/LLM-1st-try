@@ -22,13 +22,3 @@ pickle5>=0.0.12
 
 # Testing
 pytest>=7.4.0
-
-# For beginners : install a virtual environment to protect your computer
-python -m venv venv
-source venv/bin/activate  # Linux / Mac
-venv\Scripts\activate     # Windows
-
-# Install everything
-pip install --upgrade pip
-pip install -r requirements.txt
-pip install **each module needed** (sentence-transformers,...)
