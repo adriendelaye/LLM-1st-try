@@ -8,7 +8,7 @@ Launching my GitHub, I am trying to display my intermediate skills in coding as 
 
 # Advanced RAG System (Hybrid Retrieval + Reranking)
 
-This project implements a modular Retrieval-Augmented Generation (RAG) pipeline with modern best practices.
+This project implements a modular Retrieval-Augmented Generation (RAG) pipeline with modern best practices. You will need to place a HuggingFace token in the generator, the pipeline and the app.
 
 ## Features
 
